@@ -1,0 +1,299 @@
+body
+{
+    margin: 0;
+    
+    padding: 0;
+
+}
+
+button:hover, a:hover 
+{
+    cursor: pointer;
+
+}
+
+ul
+{
+    list-style-type: none;
+    
+}
+
+header
+{
+    height: 580px;
+
+    border: none;
+    border-bottom: 1px solid rgba(209, 197, 197, 0.9);
+
+}
+
+header nav
+{
+    margin-bottom: 0;
+
+}
+
+header nav #logo
+{
+    height: 60px;
+    width: 150px;
+
+    float: left;
+
+    margin-left: 90px;
+    
+    padding: 5px;
+
+}
+
+header nav ul
+{
+    display: inline-block;
+
+    margin-left: 270px;
+
+    list-style-type: none;
+
+}
+
+header nav ul li
+{
+    display: inline;
+
+    margin-left: 7px;
+
+}
+
+header nav ul li a
+{
+    color: rgb(156, 152, 152);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+
+    padding: 28px 10px;
+
+    transition: border-color 1s ease-in;
+
+}
+
+header nav ul li a:hover
+{
+    color: rgb(33, 132, 245);
+
+    border: none;
+    border-bottom: 3px solid rgb(33, 132, 245);
+
+}
+
+header nav ul li button
+{
+    padding: 15px 34px;
+
+    border: none;
+    border-radius: 4px;
+
+    color: white;
+
+    background-color: rgb(33, 132, 245);
+
+    box-shadow: 0 -4px 2px rgb(8, 110, 243) inset;
+
+}
+
+header #thanks
+{
+    height: 400px;
+
+    background-image: url("bcon20_todos.jpg");
+    background-size: cover;
+
+}
+
+header #thanks p #first
+{
+    transition: background-color 3s ease-out;
+
+    animation-name: gradient;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes gradient
+{
+    0% { background-color: -webkit-linear-gradient(left, skyblue, green);}
+    50% { background-color: -webkit-linear-gradient(left, pink, skyblue);}
+}
+
+header #thanks p #first
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+
+}
+
+header #thanks p #second
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+header #_3d-create-link
+{
+    margin-top: 20px;
+    margin-left: 200px;
+
+    color: rgb(134, 131, 131);
+
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header #_3d-create-link:hover
+{
+    color: rgb(114, 112, 112);
+
+    text-decoration: underline;
+
+}
+
+header #download-link
+{
+    margin-left: 50px;
+    margin-top: 20px;
+
+    padding: 15px 60px;
+
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    
+    background-color: rgb(33, 132, 245);
+
+    box-shadow: 0 -4px 3px rgb(8, 110, 243) inset;
+
+    font-size: large;
+
+}
+
+#quick-links
+{
+    height: 280px;
+
+    background-color: rgba(248, 244, 244, 0.7);
+
+}
+
+#quick-links section:first-child
+{
+    margin-left: 110px;
+    margin-right: 30px;
+
+}
+
+#quick-links section
+{
+    margin-top: 20px;
+
+    height: 200px;
+    width: 40%;
+
+    float: left;
+     
+    padding: 10px;
+
+    border-radius: 7px;
+
+    background-color: white;
+
+    box-shadow: 0 2px 3px rgb(211, 208, 208);
+
+
+}
+
+#quick-links section p
+{
+    margin-left: 20px;
+
+    word-wrap: break-word;
+
+    color:rgb(119, 116, 116);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+}
+
+#quick-links section .main-link
+{
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    display: block;
+
+    color: rgba(8, 8, 8, 0.8);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 27px;
+
+    text-decoration: none;
+
+}
+
+#quick-links section .main-link:hover
+{
+    text-decoration: underline;
+
+}
+
+#quick-links section hr
+{
+    margin-left: 20px;
+
+    height: 2px;
+    width: 35px;
+
+    border: none;
+    
+    background-color: rgb(233, 111, 10);
+
+}
+
+#quick-links section ul
+{
+    margin-left: 20px;
+    padding-left: 0;
+
+}
+
+#quick-links section ul li
+{
+    display: inline-block;
+
+    margin-right: 5px;
+
+}
+
+#quick-links section ul li a
+{
+    color:rgb(94, 92, 92);
+
+    text-decoration: underline;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+
+}
+
+#quick-links section ul li a:hover
+{
+    cursor: pointer;
+
+    color: rgb(33, 132, 245);
+
+}
