@@ -1,0 +1,257 @@
+body
+{
+    margin: 0;
+
+    padding: 0;
+
+}
+
+header 
+{
+    height: 500px;
+
+}
+
+header nav
+{
+    height: 80px;
+
+}
+
+header nav #logo
+{
+    margin-left: 40px;
+
+    width: 140px;
+    height: 75px;
+
+    float: left;
+
+}
+
+header nav #nav-links 
+{
+    margin-top: 23px;
+
+    padding: 0;
+
+    float: left;
+
+    list-style-type: none;
+
+}
+
+header nav #nav-links li
+{
+    display: inline;
+
+    padding-left: 26px;
+
+}
+
+header nav #nav-links li a
+{
+    text-decoration: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+    color: rgb(15, 15, 15);
+
+}
+
+header nav #nav-links li #get-started
+{
+    padding: 12px 14px;
+
+    border-radius: 3px;
+
+    background-color: rgb(24, 152, 226);
+
+    color: white;
+
+}
+
+header nav #nav-links li a:hover
+{
+    cursor: pointer;
+
+    color: rgb(24, 152, 226);
+
+}
+
+header #poster img
+{
+    margin-left: 70px;
+    margin-right: 120px;
+
+    height: 380px;
+    width: 460px;
+
+    float: left;
+
+}
+
+header #poster #text
+{
+    display: inline-block;
+
+    margin-top: 80px;
+    padding: 0;
+
+}
+
+
+header #poster #text h1
+{
+    margin-bottom: 10px;
+    padding: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+
+}
+
+header #poster #text h2
+{    
+    margin-bottom: 30px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+
+}
+
+header #poster #text #links 
+{
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+
+}
+
+header #poster #text #links li
+{
+    margin: 0;
+    padding-right: 20px;
+
+    display: inline;
+
+}
+
+header #poster #text #links li a
+{
+    padding: 12px 14px;
+
+    text-decoration: none;
+
+    border: 2px solid rgb(24, 152, 226);
+    border-radius: 3px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+header #poster #text #links li #first
+{
+    background-color: rgb(24, 152, 226);
+
+    color: white;
+
+}
+
+header #poster #text #links li #second
+{
+    background-color: white;
+
+    color: rgb(24, 152, 226);
+
+}
+
+#header-main-divide
+{
+    width: 90%;
+    height: 1px;
+
+    border: none;
+
+    background-color: rgb(233, 229, 229);
+
+}
+
+#main
+{
+    margin-top: 30px;
+
+    height: 330px;
+
+}
+
+#main section
+{
+    width: 18%;
+    height: 240px;
+
+    padding: 0 30px;
+
+    float: left;
+
+    border-left: 1px solid rgb(233, 229, 229);
+
+}
+
+#main #first
+{
+    margin-left: 2%;
+
+    border: none;
+
+}
+
+
+#main section h1
+{
+    margin-bottom: 30px;
+
+    word-wrap: break-word;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+#main section p
+{
+    word-wrap: break-word;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+#main section a
+{
+    display: inline-block;
+
+    margin-top: 50px;
+
+    text-decoration: none;
+
+    color: rgb(24, 152, 226);
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+#main #first a
+{
+    margin-top: 87px;
+
+}
+

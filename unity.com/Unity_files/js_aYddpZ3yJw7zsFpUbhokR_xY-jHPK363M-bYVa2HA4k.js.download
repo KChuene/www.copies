@@ -1,0 +1,13 @@
+(function ($, Drupal, Vue) {
+  'use strict';
+
+  Drupal.behaviors.components = {
+    attach: function (context) {
+      $('.unity-header-wrapper', context).parent().once('unity-header').each(function() {
+        new Vue({ el: $('.unity-header-wrapper', this).get(0) });
+      });
+    }
+  }
+}(jQuery, Drupal, Vue));
+
+;
