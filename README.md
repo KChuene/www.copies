@@ -1,4 +1,4 @@
-# Beginner-Endeavor_Webpage-Copy-Cat
+# WWWW.Copies
 
 An attempt from a beginner to replicate professional looking home pages using HTML and CSS. The sites are copied partially, however. Though this 
 could serve as some inspiration for any beginners.
